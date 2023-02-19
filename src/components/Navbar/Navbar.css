@@ -1,0 +1,27 @@
+.navbar {
+    padding: .75rem 1.5rem;
+    background-color: rgb(30, 30, 30);
+    color: #e1d9d9;
+}
+
+.logo {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+.links {
+    width: 70vw;
+}
+
+.navLink {
+    padding: .25rem 1rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+.navLink:hover {
+    color: rgb(30, 30, 30);
+    background-color: #e1d9d9;
+    border-radius: 2px;
+}
