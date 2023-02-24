@@ -7,7 +7,6 @@ import './Product.css';
 const Product = (props) => {
   const dispatch = useDispatch();
   const {item} = props;
-  console.log(item)
   const addToCart = (product) => {
     dispatch(add(product));
   }
