@@ -13,6 +13,35 @@ code {
     monospace;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  padding: .25rem .75rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: blue;
+  border: none;
+}
+
+.badge {
+  position: absolute;
+  border-radius: 100%;
+  padding: 0.2rem 0.4rem;
+  color: white;
+  background-color: red;
+  font-size: .65rem;
+  left: 51px;
+  top: 1px;
+}
+
 .flex {
   display: flex;
 }
