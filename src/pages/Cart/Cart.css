@@ -1,0 +1,33 @@
+.cart_container {
+    margin: 1rem 2rem;
+}
+
+.cart_card {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    height: 200px;
+    padding: 1rem;
+    position: relative;
+    margin: 1rem 0;
+}
+
+.card_image {
+    height: 100%;
+}
+
+.card_image img {
+    height: 100%;
+    aspect-ratio: 4/5;
+    object-fit: contain;
+}
+
+.card_content {
+    margin-left: 1rem;
+    row-gap: 1rem;
+}
+
+.cross_icon {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
